@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="images/Logo.png" alt="Logo">
+  </div>  
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-projects.html">About</a></li>
+        <li><a href="about-projects.html#projects">My Works</a></li>
+      </ul>
+    </nav>
+    <a class="btn-outline" href="contact.html">Contact</a>
+  </header>
+
+  <!-- content section -->
+  <main class="container-section">
+    <div class="container">
+        <div class="contact-form-wrapper">
+            <div class="purple-bg-left"></div>
+            <div class="contact-card">
+                <div class="form-container">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Your API key -->
+          <input type="hidden" name="access_key" value="8c62c107-2683-4369-9e72-f142cbbbd4ac">
+          
+          <!-- Contact Form Header -->
+          <h2>Contact Us</h2>
+          <p>Feel Free To Contact Us At Anytime. We Will Get Back As Soon As Possible</p>
+          
+          <!-- Name Input -->
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          
+          <!-- Email Input -->
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          
+          <!-- Message Textarea -->
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          
+          <!-- Submit Button -->
+         <button class="send-button">Send</button>
+        </form>
+                </div>
+                <!-- info container -->
+                <div class="information-container">
+                    <h3>Info</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>@isidore.aeworks.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+234 911 468 5416</span>  
+                    </div>
+                    <div class="info-item">
+                      <i class="fas fa-phone-alt"></i>
+                      <span>+234 706 877 8460</span>
+                  </div>
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>Isidore</span>
+                    </div>
+            </div>
+            <div class="purple-bg-right"></div>
+        </div>
+    </div>
+</main>
+ <footer class="footer">
+    <p class="footer-contact-label">Get in Touch With Us</p>
+    <h3 class="footer-email">gmail@isidore.aeworks.com</h3>
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="images/Logo.png" alt="IsidoreXD Logo" class="footer-logo-img"></div>      
+      <div class="footer-info">
+        <p>Available Worldwide<br/>+234 911 468 5416</p>
+        <p>@IsidoreXD<br/>
+          <a href="https://www.facebook.com/chidinma.isidore.2025/">Facebook</a> · <a href="https://x.com/CEOIsidoreXD">Twitter</a> · <a href="https://www.instagram.com/isidorexd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+        </p>
+      </div>
+    </div>
+    <p class="footer-rights">© 2023. IsidoreXD. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
+
